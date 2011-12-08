@@ -1,6 +1,6 @@
 # Introduction
 
-This is an example Node app I wrote using CoffeeScript, Express and Jade. So far I have it running locally against Node 0.6.5 but I haven't had any luck deploying to Heroku as it only support 0.4.7 (at least what I can tell from their documentation).
+This is an example Node app I wrote using CoffeeScript, Express and Jade. So far I have it running locally against Node 0.6.5 but I haven't had any luck deploying to Heroku as it only supports 0.4.7 (at least what I can tell from their documentation).
 
 # Installation
 
