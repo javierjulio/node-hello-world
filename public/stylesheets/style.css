@@ -1,0 +1,23 @@
+div a {
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+div a:link,
+div a:visited {
+  color: #6b8a96;
+  outline: none;
+  text-decoration: underline;
+}
+div a:hover {
+  color: #ba9471;
+  text-decoration: underline;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
