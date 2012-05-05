@@ -4,4 +4,4 @@
  * http://stackoverflow.com/questions/7596230/use-coffee-instead-of-node-command-in-production
  */
 require("coffee-script");
-require("./web");
+require("./app");
