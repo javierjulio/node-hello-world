@@ -1,2 +1,3 @@
 web: node server.js
-coffee: coffee -w -o public -j application.js -c public/javascripts/*.coffeestylus: stylus -w -c --include-css public/stylesheets/application.styl -o public/
+stylus: stylus -w -c --include-css public/stylesheets/application.styl -o public/
+coffee: coffee -o public -j application.js -w -c public/javascripts/*.coffee
