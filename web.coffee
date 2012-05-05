@@ -10,18 +10,21 @@ app.configure ->
   
   app.set 'views', viewsDir
   app.set 'view engine', 'jade'
+  
   app.use express.static(publicDir)
   app.use express.methodOverride()
   app.use express.bodyParser()
   app.use express.logger()
-  app.use stylus.middleware({ src: __dirname + '/public' })
+  
   app.use app.router
+  
+  app.use stylus.middleware
+    src: __dirname + '/public/stylesheets'
 
 app.configure 'development', ->
-  app.use express.errorHandler(
-    dumpExceptions: true,
+  app.use express.errorHandler
+    dumpExceptions: true
     showStack: true
-  )
 
 app.configure 'production', ->
   app.use express.errorHandler()
