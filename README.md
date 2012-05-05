@@ -3,7 +3,8 @@ This is an example Node app I wrote using CoffeeScript, Express, Jade and Stylus
 # Installation
 
 - Install Node either by [source](http://increaseyourgeek.wordpress.com/2010/08/18/install-node-js-without-using-sudo/) or by [downloading installers](http://nodejs.org/#download)
-- git clone git://github.com/sstephenson/rbenv.git node-hello-world
-- cd node-hello-world
-- run ```npm install``` to install packages locally (in node-hello-world/node_modules)
-- run ```coffee web.coffee``` or ```node web.js``` to start the application
+- ```git clone git://github.com/sstephenson/rbenv.git node-hello-world```
+- ```cd node-hello-world```
+- Run ```npm install``` to install packages locally (in node-hello-world/node_modules)
+- ```gem install foreman```
+- Run application ```foreman start```
